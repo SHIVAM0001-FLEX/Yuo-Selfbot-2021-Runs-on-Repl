@@ -16,7 +16,7 @@ Account nuker, discord selfbot for discord. (will revamp/fix soon.)
 # Socials
   - https://discord.gg/j5nCYunYJp
   - https://www.youtube.com/watch?v=z8ULrmMZA3U&t=10s
-
+  - https://replit.com/@ArskyIsOnTop/Yuo-Selfbot
 
 # Legality
 
