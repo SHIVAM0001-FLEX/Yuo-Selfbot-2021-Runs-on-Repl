@@ -1,0 +1,7 @@
+@Yuo.event #Logs messages in terminal 
+async def on_message(message):
+    IDF= "826996086140698625"
+    if message.author.id == 1090909090909009: #User ID
+        print(message.content)
+
+Put this somewhere in 3Hunna.py if u wan't a msg logger in terminal shit litty bro 
