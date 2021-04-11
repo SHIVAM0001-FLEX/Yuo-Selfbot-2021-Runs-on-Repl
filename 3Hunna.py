@@ -809,7 +809,7 @@ async def help(ctx, category=None):
                          icon_url=Yuo.user.avatar_url)
         embed.set_thumbnail(url=embed.set_image(url="NNNN")Yuo.user.avatar_url)
         embed.set_image(url="https://cdn.discordapp.com/attachments/821075039415435264/830689580504055808/standard_4.gif")
-        embed.add_field(name="\uD83E\uDDCA `GENERAL`", value="Shows all Yuo commands", inline=False)
+        embed.add_field(name="\uD83E\uDDCA `GENERAL`", value="Shows all account commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `ACCOUNT`", value="Shows all account commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `TEXT`", value="Shows all text commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `RAP`", value="Shows all music commands", inline=False)
@@ -819,7 +819,7 @@ async def help(ctx, category=None):
         embed.add_field(name="\uD83E\uDDCA `ANTI-WIZZ`", value="Shows all anti-wizz commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `WIZZ`", value="Shows all wizz commands", inline=False)
         await ctx.send(embed=embed)
-    elif str(category).lower() == "GENERAL":
+    elif str(category).lower() == "general":
         embed = discord.Embed(color=random.randrange(0x1000000), timestamp=ctx.message.created_at)
         embed.set_image(url="https://cdn.discordapp.com/attachments/821075039415435264/830689580504055808/standard_4.gif")
         embed.description = f"\uD83D\uDCB0 `GENERAL COMMANDS`\n`> help <category>` - returns all commands of that category\n`> uptime` - return how long the selfbot has been running\n`> prefix <prefix>` - changes the bot's prefix\n`> ping` - returns the bot's latency\n`> av <user>` - returns the user's pfp\n`> whois <user>` - returns user's account info\n`> tokeninfo <token>` - returns information about the token\n`> copyserver` - makes a copy of the server\n`> rainbowrole <role>` - makes the role a rainbow role (ratelimits)\n`> serverinfo` - gets information about the server\n`> serverpfp` - returns the server's icon\n`> banner` - returns the server's banner\n`> shutdown` - shutsdown the selfbot\n"
